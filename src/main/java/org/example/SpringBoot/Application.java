@@ -12,3 +12,5 @@ public class Application {
 
 
 //https://www.youtube.com/watch?v=jH17YkBTpI4&list=PLU2ftbIeotGpAYRP9Iv2KLIwK36-o_qYk&ab_channel=letsCode
+//https://java-master.com/spring-mvc-thymeleaf/
+//https://habr.com/ru/post/482552/

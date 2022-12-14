@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e5a346-f5df-4c75-881e-2ef2fcef2273" name="Changes" comment="thymeleaf tags">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+    <list default="true" id="c8e5a346-f5df-4c75-881e-2ef2fcef2273" name="Changes" comment="spring security">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/UFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts.ubuntu/Ubuntu-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBoot/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +37,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -77,7 +90,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/dev/spring_boot/src/main/resources/templates",
+    "last_opened_file_path": "D:/dev/spring_web",
+    "list.type.of.created.stylesheet": "CSS",
     "spring.configuration.checksum": "c83dc8b7063e6845a727523ca02d381c"
   },
   "keyToStringList": {
@@ -89,6 +103,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\spring_boot\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\spring_boot\src\main\resources\static\css" />
+      <recent name="D:\dev\spring_boot\src\main\resources\templates" />
+      <recent name="D:\dev\spring_boot\src\main\resources\static" />
+      <recent name="D:\dev\spring_boot\src\main\resources" />
+      <recent name="D:\dev\spring_boot\src\main\resources\templates\fonts.ubuntu" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example.SpringBoot.config" />
@@ -112,7 +133,9 @@
       <option name="presentableId" value="Default" />
       <updated>1670782009996</updated>
       <workItem from="1670782011826" duration="6749000" />
-      <workItem from="1670868570159" duration="7421000" />
+      <workItem from="1670868570159" duration="7918000" />
+      <workItem from="1671042912455" duration="14000" />
+      <workItem from="1671045095003" duration="5816000" />
     </task>
     <task id="LOCAL-00001" summary="thymeleaf tags">
       <created>1670788967289</created>
@@ -121,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670788967289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring security">
+      <created>1670878576220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670878576220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thymeleaf tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf tags" />
+    <MESSAGE value="spring security" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring security" />
   </component>
 </project>

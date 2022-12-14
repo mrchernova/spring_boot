@@ -18,7 +18,7 @@ public class GreetingController {
 
     @GetMapping("/")
     public String greeting(Map<String, Object> model) {
-        return "greeting";
+        return "index";
     }
 
     @GetMapping("/main")
@@ -38,11 +38,5 @@ public class GreetingController {
 
         return "main";
     }
-//    @PostMapping("filter")
-//    public String filter(@RequestParam String filter, Map<String, Object> model){
-//        Iterable<Message> messages;
-//    }
-
-
 
 }
